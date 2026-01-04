@@ -7,6 +7,10 @@ body{
 
 }
 
+a>svg{
+    margin-left: 12px;
+}
+
 /*----------------header--------------*/
 header{
     width: 100%;
@@ -218,7 +222,7 @@ input[type="submit"]{
     text-transform: capitalize;
 }
 
-.category>div:first-child>h4{
+.category>div:first-child>p{
     color: #2B2C34;
     text-align: right;
     font-size: 20px;
@@ -226,10 +230,6 @@ input[type="submit"]{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-}
-
-.category>div:first-child>h4>svg{
-    margin-left: 12px;
 }
 
 .cards_category{
@@ -258,6 +258,9 @@ input[type="submit"]{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FFFFFE;
+    border-radius: 7.458px;
+
 }
 
 .cards_category>div>h3{
@@ -275,13 +278,148 @@ input[type="submit"]{
     background: #6246EA;
 }
 
-.cards_category>div:nth-child(3)>div{
-    border-radius: 7.458px;
-    background: #FFFFFE;
-}
-
 .cards_category>div:nth-child(3)>h3{
     color: #FFFFFE;
 }
 
+.information{
+    width: 100%;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+}
 
+.info_w-1250px{
+    width: 1250px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.info_w-1250px>section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.info_w-1250px>section>div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_w-1250px>section>div:first-child>h3{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.info_w-1250px>section>div:first-child>p{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.info_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.info_cards>div{
+    width: 300px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+}
+
+.info_cards>div>h4{
+    width: 260px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+.dasteen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.dasteen h5{
+    color:#2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dasteen p{
+    width: 184px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+/*-----featured_article-----*/
+.featured_article>.info_cards>div:nth-child(1)>h4{
+    padding: 25px 0 80px 0;
+}
+.featured_article>.info_cards>div:nth-child(even)>h4{
+    padding: 25px 0 55px 0;
+}
+.featured_article>.info_cards>div:nth-child(3)>h4{
+    padding: 25px 0 30px 0;
+}
+
+/*-----CSS-----*/
+.css>.info_cards>div>h4{
+    padding: 25px 0 55px 0;
+}
+.css>.info_cards>div:nth-child(4)>h4{
+    padding: 25px 0 30px 0;
+}
+
+/*-----javascript-----*/
+.javascript>.info_cards>div>h4{
+    padding: 25px 0 55px 0;
+}
+.javascript>.info_cards>div:nth-child(2)>h4{
+    padding: 25px 0 80px 0;
+}
+.javascript>.info_cards>div:nth-child(3)>h4{
+    padding: 25px 0 30px 0;
+}
+
+
+/*-----React-JS-----*/
+.react_js>.info_cards>div>h4{
+    padding: 25px 0 55px 0;
+}
