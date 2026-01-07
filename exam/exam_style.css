@@ -18,7 +18,6 @@ a>svg{
      font-style: normal;
      font-weight: 600;
      line-height: normal;
-     margin: 26px 0 15px 0;
  }
 
 .title>span{
@@ -505,7 +504,92 @@ input[type="submit"]{
 }
 
 .subscribe_bottom>form{
-    margin-bottom: 50px;
+    margin-bottom: 58px;
     display: flex;
     gap: 20px;
+}
+
+/*----------footer---------*/
+footer{
+    background: #E4E5E9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_w-1250px{
+    width: 1250px;
+    margin-top: 70px;
+}
+
+.footer_w-1250px>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social_networks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social_networks>p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social_networks>div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links{
+    display: flex;
+    gap: 95px;
+}
+
+.links>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links>div>h3{
+    margin-bottom: 5px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.links>div>p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+hr{
+    margin: 50px 0 26px 0;
+    height: 1px;
+    background: #C0C0C0;
+}
+
+.footer_w-1250px>p{
+    margin-bottom: 26px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
