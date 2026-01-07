@@ -70,6 +70,13 @@ header li{
     text-transform: capitalize;
 }
 
+.header_w-1250px>nav>ul>li:nth-child(4)>a>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .header_w-1250px>div{
     margin: 22px 0 20px 0;
 }
